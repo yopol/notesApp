@@ -9,13 +9,12 @@ import {useState} from 'react';
         };
     return(
         <div className="note new" >
-            <textarea rows='8'
-                cols='10'
+            <textarea rows='12'
+                cols='12'
                 placeholder ='Type to add a note...'
                 onChange ={handleChange}
                ></textarea>
             <div className='note-footer'>
-                <small> 200 Remaining </small>
                 <button className="save">Save</button>
             </div>
         </div>
