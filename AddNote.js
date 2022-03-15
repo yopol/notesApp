@@ -11,7 +11,7 @@ import {useState} from 'react';
         <div className="note new" >
             <textarea rows='12'
                 cols='12'
-                placeholder ='Type to add a note...'
+                placeholder ='Add note.'
                 onChange ={handleChange}
                ></textarea>
             <div className='note-footer'>
